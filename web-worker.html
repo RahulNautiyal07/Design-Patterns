@@ -1,0 +1,19 @@
+<!-- // Javascript is a single threaded language, it only allow one to execute at a time, 
+// Web worker allow to execute multiple threads of javascripts in parrallel each other,
+// WEb worker off road the thread heavy work ( CPU intensive work ) parrallely with main thread.
+// So server main thread runs well without any delay of time.
+// Web worker thread can not perform DOM manipulation, only main thread can manipulate the DOM. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Worker</title>   
+ </head>
+ <body>
+    <button id="sumButton">Calculate Sum</button>
+    <button id="bgButton">Change Background</button>
+    <script src="script.js"></script>
+ </body>
+ </html>
